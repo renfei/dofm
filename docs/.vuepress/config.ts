@@ -1,6 +1,6 @@
 import {defineUserConfig} from 'vuepress'
 import {defaultTheme} from '@vuepress/theme-default'
-import { docsearchPlugin } from '@vuepress/plugin-docsearch'
+import {docsearchPlugin} from '@vuepress/plugin-docsearch'
 import {head, navbarZh} from './configs'
 
 export default defineUserConfig({
@@ -14,6 +14,7 @@ export default defineUserConfig({
         logo: 'https://cdn.renfei.net/Logo/RF.svg',
         repo: 'renfei/dofm',
         docsDir: 'docs',
+        docsBranch: 'master',
 
         locales: {
             '/': {
@@ -42,7 +43,7 @@ export default defineUserConfig({
         },
     }),
 
-    plugins:[
+    plugins: [
         // docsearchPlugin({
         //     appId: '',
         //     apiKey: '',
