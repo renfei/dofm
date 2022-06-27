@@ -44,10 +44,10 @@ export default defineUserConfig({
     }),
 
     plugins: [
-        // docsearchPlugin({
-        //     appId: '',
-        //     apiKey: '',
-        //     indexName: 'dofm',
-        // }),
+        docsearchPlugin({
+            appId: '',
+            apiKey: '',
+            indexName: 'dofm',
+        }),
     ],
 })
