@@ -1,0 +1,18 @@
+{
+  "name": "dofm",
+  "version": "1.0.0",
+  "description": "DevOps Flight Manual",
+  "main": "index.js",
+  "repository": "https://github.com/renfei/dofm",
+  "author": "RenFei <i@renfei.net>",
+  "license": "Apache 2.0",
+  "devDependencies": {
+    "@vuepress/plugin-docsearch": "^2.0.0-beta.48",
+    "@vuepress/plugin-git": "^2.0.0-beta.48",
+    "vuepress": "^2.0.0-beta.48"
+  },
+  "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
