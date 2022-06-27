@@ -5,7 +5,7 @@
   "main": "index.js",
   "repository": "https://github.com/renfei/dofm",
   "author": "RenFei <i@renfei.net>",
-  "license": "Apache 2.0",
+  "license": "MIT",
   "devDependencies": {
     "@vuepress/plugin-docsearch": "^2.0.0-beta.48",
     "@vuepress/plugin-git": "^2.0.0-beta.48",
