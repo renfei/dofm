@@ -14,7 +14,7 @@ export const sidebarZh: SidebarConfig = {
     '/zh-cn/development/': [
         {
             text: '开发规约手册',
-            collapsible: true,
+            // collapsible: true,
             children: [
                 '/zh-cn/development/java.md',
             ],
@@ -23,17 +23,18 @@ export const sidebarZh: SidebarConfig = {
     '/zh-cn/security/': [
         {
             text: '安全规约手册',
+            // collapsible: true,
             children: [
-                '/zh-cn/security/README.md',
+                '/zh-cn/security/development.md',
             ],
         },
     ],
     '/zh-cn/operations/': [
         {
             text: '事故处置手册',
-            collapsible: true,
+            // collapsible: true,
             children: [
-                '/zh-cn/operations/accident/jvm/README.md',
+                '/zh-cn/operations/accident/jvm.md',
             ],
         },
     ],

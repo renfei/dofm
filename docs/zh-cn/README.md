@@ -23,11 +23,15 @@ description: 首页
 
 以下为部分快速直达链接：
 
-* [Java开发规约手册](development/java)
+* [Java开发规约手册](development/java.md)
 
 ## 安全规约手册
 
 无论你是软件系统开发人员还是运维人员，安全知识都是不可或缺的，建议了解相关安全知识、手册首页：[安全规约手册](security)。
+
+以下为部分快速直达链接：
+
+* [开发安全规约手册](security/development.md)
 
 ## 运维规约手册
 

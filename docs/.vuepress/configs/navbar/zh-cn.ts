@@ -18,7 +18,14 @@ export const navbarZh: NavbarConfig = [
     },
     {
         text: '安全',
-        link: '/zh-cn/security/',
+        children: [
+            {
+                text: '开发安全',
+                children: [
+                    '/zh-cn/security/development.md'
+                ]
+            },
+        ]
     },
     {
         text: '运维',
@@ -26,7 +33,7 @@ export const navbarZh: NavbarConfig = [
             {
                 text: '事故',
                 children: [
-                    '/zh-cn/operations/accident/jvm/README.md'
+                    '/zh-cn/operations/accident/jvm.md'
                 ]
             },
         ]
