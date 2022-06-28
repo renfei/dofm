@@ -11,7 +11,7 @@ export const navbarZh: NavbarConfig = [
             {
                 text: 'Java',
                 children: [
-                    '/zh-cn/development/java/README.md'
+                    '/zh-cn/development/java.md'
                 ]
             },
         ]

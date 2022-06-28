@@ -16,7 +16,7 @@ export const sidebarZh: SidebarConfig = {
             text: '开发规约手册',
             collapsible: true,
             children: [
-                '/zh-cn/development/java/README.md',
+                '/zh-cn/development/java.md',
             ],
         },
     ],
