@@ -1,24 +1,43 @@
 import {defineUserConfig} from 'vuepress'
 import {defaultTheme} from '@vuepress/theme-default'
 import {docsearchPlugin} from '@vuepress/plugin-docsearch'
-import {head, navbarZh} from './configs'
+import {head, navbarZh, navbarEn, sidebarZh, sidebarEn} from './configs'
 
 export default defineUserConfig({
-    lang: 'zh-CN',
-    title: '开发运维飞行手册',
-    description: '开发与运维飞行手册 DOFM(DevOps Flight Manual)',
+    base: '/',
 
     head,
 
+    locales: {
+        '/': {
+            lang: 'en-US',
+            title: 'DevOps Flight Manual',
+            description: 'DevOps Flight Manual',
+        },
+        '/zh-cn/': {
+            lang: 'zh-CN',
+            title: '开发运维飞行手册',
+            description: '开发与运维飞行手册 DOFM(DevOps Flight Manual)',
+        },
+    },
+
     theme: defaultTheme({
-        logo: 'https://cdn.renfei.net/Logo/RF.svg',
+        logo: '/image/logo.webp',
         repo: 'renfei/dofm',
         docsDir: 'docs',
         docsBranch: 'master',
 
         locales: {
             '/': {
+                navbar: navbarEn,
+                sidebar: sidebarEn,
+            },
+            '/zh-cn/': {
                 navbar: navbarZh,
+                sidebar: sidebarZh,
+                selectLanguageName: '简体中文',
+                selectLanguageText: '选择语言',
+                selectLanguageAriaLabel: '选择语言',
                 // page meta
                 editLinkText: '在 GitHub 上编辑此页',
                 lastUpdatedText: '上次更新',
