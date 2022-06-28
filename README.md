@@ -1,5 +1,7 @@
 # 开发运维飞行手册
 
+[https://www.dofm.org](https://www.dofm.org)
+
 开发运维飞行手册 ***DOFM***(***D***ev***O***ps ***F***light ***M***anual) 是给开发与运维人员参考的手册，含义如下：
 
 * ***Dev***: 开发 Development，开发人员的规约手册。
@@ -9,7 +11,7 @@
 
 `DevSecOps 在此处也省略缩写归并到 DevOps。`
 
-## 手册链接
+很多同学在开发、运维时不知道怎样去做、如何去做，这个手册希望能给你帮助。
 
-* Gitee: 暂无
-* Github: [https://dofm.org](https://dofm.org)
+## 开源共建
+
