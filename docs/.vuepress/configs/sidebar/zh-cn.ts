@@ -31,8 +31,17 @@ export const sidebarZh: SidebarConfig = {
     ],
     '/zh-cn/operations/': [
         {
+            text: '操作系统飞行手册',
+            collapsible: true,
+            children: [
+                '/zh-cn/operations/operating-system/windows.md',
+                '/zh-cn/operations/operating-system/linux.md',
+                '/zh-cn/operations/operating-system/macos.md',
+            ],
+        },
+        {
             text: '事故处置手册',
-            // collapsible: true,
+            collapsible: true,
             children: [
                 '/zh-cn/operations/accident/jvm.md',
             ],

@@ -31,6 +31,14 @@ export const navbarZh: NavbarConfig = [
         text: '运维',
         children: [
             {
+                text: '系统',
+                children: [
+                    '/zh-cn/operations/operating-system/windows.md',
+                    '/zh-cn/operations/operating-system/linux.md',
+                    '/zh-cn/operations/operating-system/macos.md',
+                ]
+            },
+            {
                 text: '事故',
                 children: [
                     '/zh-cn/operations/accident/jvm.md'
