@@ -64,8 +64,8 @@ export default defineUserConfig({
 
     plugins: [
         docsearchPlugin({
-            appId: '',
-            apiKey: '',
+            appId: 'FOC7PMEU25',
+            apiKey: 'ac831bb5902f4068a903aa1ede0b6e5d',
             indexName: 'dofm',
         }),
     ],
