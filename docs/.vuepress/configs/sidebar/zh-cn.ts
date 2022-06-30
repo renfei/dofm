@@ -29,6 +29,7 @@ export const sidebarZh: SidebarConfig = {
             children: [
                 '/zh-cn/security/development.md',
                 '/zh-cn/security/guo-mi.md',
+                '/zh-cn/security/sanyuan.md',
             ],
         },
     ],

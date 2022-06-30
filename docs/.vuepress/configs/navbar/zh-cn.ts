@@ -26,6 +26,7 @@ export const navbarZh: NavbarConfig = [
                 children: [
                     '/zh-cn/security/development.md',
                     '/zh-cn/security/guo-mi.md',
+                    '/zh-cn/security/sanyuan.md',
                 ]
             },
         ]
