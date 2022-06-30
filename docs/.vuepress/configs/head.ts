@@ -1,4 +1,4 @@
-import type { HeadConfig } from '@vuepress/core'
+import type {HeadConfig} from '@vuepress/core'
 
 export const head: HeadConfig[] = [
     [
@@ -19,13 +19,13 @@ export const head: HeadConfig[] = [
             href: `/image/icons/favicon-32x32.png`,
         },
     ],
-    ['link', { rel: 'manifest', href: '/manifest.webmanifest' }],
-    ['meta', { name: 'application-name', content: 'DevOps Flight Manual' }],
-    ['meta', { name: 'apple-mobile-web-app-title', content: 'DevOps Flight Manual' }],
-    ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+    ['link', {rel: 'manifest', href: '/manifest.webmanifest'}],
+    ['meta', {name: 'application-name', content: 'DevOps Flight Manual'}],
+    ['meta', {name: 'apple-mobile-web-app-title', content: 'DevOps Flight Manual'}],
+    ['meta', {name: 'apple-mobile-web-app-status-bar-style', content: 'black'}],
     [
         'link',
-        { rel: 'apple-touch-icon', href: `/image/icons/apple-touch-icon.png` },
+        {rel: 'apple-touch-icon', href: `/image/icons/apple-touch-icon.png`},
     ],
     [
         'link',
@@ -35,6 +35,17 @@ export const head: HeadConfig[] = [
             color: '#3eaf7c',
         },
     ],
-    ['meta', { name: 'msapplication-TileColor', content: '#3eaf7c' }],
-    ['meta', { name: 'theme-color', content: '#3eaf7c' }],
+    ['meta', {name: 'msapplication-TileColor', content: '#3eaf7c'}],
+    ['meta', {name: 'theme-color', content: '#3eaf7c'}],
+    [
+        "script",
+        {},
+        `var _hmt = _hmt || [];
+         (function() {
+           var hm = document.createElement("script");
+           hm.src = "https://hm.baidu.com/hm.js?00bbf0fe971aebfed692950d55813467";
+           var s = document.getElementsByTagName("script")[0]; 
+           s.parentNode.insertBefore(hm, s);
+         })();`
+    ],
 ]
