@@ -17,6 +17,7 @@ export const sidebarZh: SidebarConfig = {
             // collapsible: true,
             children: [
                 '/zh-cn/development/java.md',
+                '/zh-cn/development/vue.md',
                 '/zh-cn/development/git.md',
             ],
         },

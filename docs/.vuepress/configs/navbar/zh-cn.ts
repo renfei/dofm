@@ -9,14 +9,10 @@ export const navbarZh: NavbarConfig = [
         text: '开发',
         children: [
             {
-                text: 'Java',
+                text: '开发规范',
                 children: [
-                    '/zh-cn/development/java.md'
-                ]
-            },
-            {
-                text: 'Git',
-                children: [
+                    '/zh-cn/development/java.md',
+                    '/zh-cn/development/vue.md',
                     '/zh-cn/development/git.md'
                 ]
             },
