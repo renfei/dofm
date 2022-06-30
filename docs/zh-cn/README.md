@@ -24,6 +24,8 @@ description: 首页
 以下为部分快速直达链接：
 
 * [Java开发规约手册](development/java.md)
+* [Vue.js前端开发规约手册](development/vue.md)
+* [Git使用手册](development/git.md)
 
 ## 安全规约手册
 
@@ -32,7 +34,13 @@ description: 首页
 以下为部分快速直达链接：
 
 * [开发安全规约手册](security/development.md)
+* [国密（国产密码算法）](security/guo-mi.md)
 
 ## 运维规约手册
 
 如果你是系统运维人员，建议您重点关注运维规约手册，遇到任何事件都可以处事不惊，从容处理。手册首页：[运维规约手册](operations)。
+
+以下为部分快速直达链接：
+
+* [操作系统运维手册](operations/operating-system)
+* [事故处置手册](operations/accident)
