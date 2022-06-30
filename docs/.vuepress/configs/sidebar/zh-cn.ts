@@ -23,9 +23,10 @@ export const sidebarZh: SidebarConfig = {
     '/zh-cn/security/': [
         {
             text: '安全规约手册',
-            // collapsible: true,
+            collapsible: true,
             children: [
                 '/zh-cn/security/development.md',
+                '/zh-cn/security/guo-mi.md',
             ],
         },
     ],

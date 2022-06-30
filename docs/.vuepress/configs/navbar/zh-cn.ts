@@ -22,7 +22,8 @@ export const navbarZh: NavbarConfig = [
             {
                 text: '开发安全',
                 children: [
-                    '/zh-cn/security/development.md'
+                    '/zh-cn/security/development.md',
+                    '/zh-cn/security/guo-mi.md',
                 ]
             },
         ]
