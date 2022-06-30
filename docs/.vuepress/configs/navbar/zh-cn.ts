@@ -14,6 +14,12 @@ export const navbarZh: NavbarConfig = [
                     '/zh-cn/development/java.md'
                 ]
             },
+            {
+                text: 'Git',
+                children: [
+                    '/zh-cn/development/git.md'
+                ]
+            },
         ]
     },
     {
