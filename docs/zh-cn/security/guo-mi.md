@@ -51,3 +51,46 @@ description: 国密（国产密码算法）
 * SM3算法：该算法为摘要算法，可以用MD5作为对比理解。校验结果为256位。适用于商用密码应用中的数字签名和验证消息认证码的生成与验证以及随机数的生成，可满足多种密码应用的安全需求。
 * SM4算法：无线局域网标准的分组数据算法。对称加密，密钥长度和分组长度均为128位。由于SM1、SM4加解密的分组大小为128bit，故对消息进行加解密时，若消息长度过长，需要进行分组，要消息长度不足，则要进行填充。
 * SM7算法：是一种分组密码算法，分组长度为128比特，密钥长度为128比特。SM7适用于非接触式IC卡，应用包括身份识别类应用(门禁卡、工作证、参赛证)，票务类应用(赛事门票、展会门票)，支付与通卡类应用（校园一卡通、企业一卡通等）。
+
+## 国密算法实现
+
+### Java版实现
+
+基于BouncyCastle实现国密算法SM2、SM3、SM4的操作类。
+
+#### 安装依赖
+
+```xml
+<dependency>
+    <groupId>net.renfei</groupId>
+    <artifactId>sdk</artifactId>
+    <version>2.0.0-SNAPSHOT</version>
+</dependency>
+```
+
+#### 使用案例
+
+使用 SM3 进行散列，类似 SHA-1 的 Hash 操作：
+
+```java
+import net.renfei.sdk.security.gm.sm.SM3Util;
+import net.renfei.sdk.utils.StringUtils;
+
+public class SM3UtilTest {
+    static int randomData = 128;
+    static byte[] message = StringUtils.getRandomString(randomData).getBytes();
+
+    public void hashAndVerify() {
+        byte[] hashVal = SM3Util.hash(message);
+        assertTrue(SM3Util.verify(message, hashVal));
+
+        String messageString = StringUtils.getRandomString(randomData);
+        String hash = SM3Util.hash(messageString);
+        assertTrue(SM3Util.verify(messageString, hash));
+    }
+}
+```
+
+### NodeJS版实现
+
+暂无
