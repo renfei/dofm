@@ -35,6 +35,12 @@ export const navbarZh: NavbarConfig = [
         text: '运维',
         children: [
             {
+                text: '服务器',
+                children: [
+                    '/zh-cn/operations/server/nginx.md',
+                ]
+            },
+            {
                 text: '系统',
                 children: [
                     '/zh-cn/operations/operating-system/windows.md',

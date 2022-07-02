@@ -35,6 +35,13 @@ export const sidebarZh: SidebarConfig = {
     ],
     '/zh-cn/operations/': [
         {
+            text: '服务器飞行手册',
+            collapsible: true,
+            children: [
+                '/zh-cn/operations/server/nginx.md',
+            ],
+        },
+        {
             text: '操作系统飞行手册',
             collapsible: true,
             children: [
