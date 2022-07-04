@@ -56,4 +56,15 @@ export const navbarZh: NavbarConfig = [
             },
         ]
     },
+    {
+        text: '更多',
+        children: [
+            {
+                text: '任霏博客',
+                children: [
+                    'https://www.renfei.net',
+                ]
+            },
+        ]
+    },
 ]

@@ -43,5 +43,11 @@ description: 首页
 
 以下为部分快速直达链接：
 
+* [服务器运维手册](operations/server)
 * [操作系统运维手册](operations/operating-system)
 * [事故处置手册](operations/accident)
+
+## 参考文献
+
+* 阿里巴巴Java开发手册
+* [Nginx中文手册](https://www.nginx.cn)
