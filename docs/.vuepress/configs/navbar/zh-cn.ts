@@ -39,6 +39,7 @@ export const navbarZh: NavbarConfig = [
                 children: [
                     '/zh-cn/operations/server/nginx.md',
                     '/zh-cn/operations/server/docker.md',
+                    '/zh-cn/operations/server/zookeeper.md',
                 ]
             },
             {

@@ -40,6 +40,7 @@ export const sidebarZh: SidebarConfig = {
             children: [
                 '/zh-cn/operations/server/nginx.md',
                 '/zh-cn/operations/server/docker.md',
+                '/zh-cn/operations/server/zookeeper.md',
             ],
         },
         {
