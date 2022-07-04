@@ -29,7 +29,14 @@ export const navbarZh: NavbarConfig = [
                     '/zh-cn/security/sanyuan.md',
                 ]
             },
-        ]
+            {
+                text: '服务器安全',
+                children: [
+                    '/zh-cn/security/server/linux.md',
+                    '/zh-cn/security/server/lesuo.md',
+                ]
+            },
+        ],
     },
     {
         text: '运维',

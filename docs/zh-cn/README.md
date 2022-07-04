@@ -51,3 +51,4 @@ description: 首页
 
 * 阿里巴巴Java开发手册
 * [Nginx中文手册](https://www.nginx.cn)
+* [应急响应实战笔记](https://bypass007.github.io/Emergency-Response-Notes/)

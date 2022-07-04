@@ -32,6 +32,14 @@ export const sidebarZh: SidebarConfig = {
                 '/zh-cn/security/sanyuan.md',
             ],
         },
+        {
+            text: '服务器安全手册',
+            collapsible: true,
+            children: [
+                '/zh-cn/security/server/linux.md',
+                '/zh-cn/security/server/lesuo.md',
+            ],
+        },
     ],
     '/zh-cn/operations/': [
         {

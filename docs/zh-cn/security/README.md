@@ -13,3 +13,8 @@ description: 安全的飞行手册
 * [开发安全规约手册](development.md)
 * [国密（国产密码算法）](guo-mi.md)
 * [涉密系统三员手册](sanyuan.md)
+
+## 服务器安全手册
+
+* [Linux服务器安全飞行手册](server/linux.md)
+* [勒索病毒自救指南](server/lesuo.md)
