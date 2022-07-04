@@ -39,6 +39,7 @@ export const sidebarZh: SidebarConfig = {
             collapsible: true,
             children: [
                 '/zh-cn/operations/server/nginx.md',
+                '/zh-cn/operations/server/docker.md',
             ],
         },
         {

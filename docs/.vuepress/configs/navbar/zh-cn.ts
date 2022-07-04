@@ -38,6 +38,7 @@ export const navbarZh: NavbarConfig = [
                 text: '服务器',
                 children: [
                     '/zh-cn/operations/server/nginx.md',
+                    '/zh-cn/operations/server/docker.md',
                 ]
             },
             {
