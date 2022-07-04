@@ -27,8 +27,6 @@ http.host: 0.0.0.0
 http.cors.enabled: true
 http.cors.allow-origin: "*"
 http.cors.allow-headers: Authorization
-xpack.security.enabled: true
-xpack.security.transport.ssl.enabled: true
 ```
 
 注意：文件夹的权限要改成使用`chmod -R 777`修改文件读写权限
@@ -51,7 +49,7 @@ docker run \
 -v /opt/docker/elasticsearch/plugins:/usr/share/elasticsearch/plugins \
 -v /opt/docker/elasticsearch/data:/usr/share/elasticsearch/data \
 -v /opt/docker/elasticsearch/config/elasticsearch.yml:/usr/share/elasticsearch/config/elasticsearch.yml \
--d elasticsearch:8.3.1
+-d elasticsearch:8.2.3
 ```
 
 命令详解:
@@ -79,3 +77,17 @@ bin/elasticsearch-setup-passwords interactive
 重设密码，操作记录如下：
 
 [![elasticsearch-setup-passwords interactive](/image/docs/20220704145802.webp)
+
+### 进入容器安装分词插件
+
+使用以下命令进入容器，其中`elasticsearch`是我们容器的名字：
+
+```shell
+docker exec -it elasticsearch /bin/sh
+```
+
+安装分词插件，注意`版本号`要匹配：
+
+```shell
+bin/elasticsearch-plugin install https://github.com/medcl/elasticsearch-analysis-ik/releases/download/v8.2.3/elasticsearch-analysis-ik-8.2.3.zip
+```
