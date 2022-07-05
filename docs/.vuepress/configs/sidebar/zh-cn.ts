@@ -19,6 +19,7 @@ export const sidebarZh: SidebarConfig = {
                 '/zh-cn/development/java.md',
                 '/zh-cn/development/vue.md',
                 '/zh-cn/development/git.md',
+                '/zh-cn/development/code-doc.md',
             ],
         },
     ],

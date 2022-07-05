@@ -26,6 +26,7 @@ description: 首页
 * [Java开发规约手册](development/java.md)
 * [Vue.js前端开发规约手册](development/vue.md)
 * [Git使用手册](development/git.md)
+* [技术文档撰写手册](development/code-doc.md)
 
 ## 安全规约手册
 
